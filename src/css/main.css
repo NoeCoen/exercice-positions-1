@@ -1,0 +1,185 @@
+/* ====================================
+// css variables
+// ==================================== */
+
+:root {
+}
+
+/* ====================================
+// reset rules
+// ==================================== */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+
+  font-size: 1rem;
+  line-height: 1.25;
+}
+
+a {
+  color: inherit;
+}
+
+img,
+video {
+  max-inline-size: 100%;
+  block-size: auto;
+  vertical-align: middle;
+}
+
+/* ====================================
+// base rules
+// ==================================== */
+
+header {
+  background-color: #4c4c4c;
+  height: 44px;
+  width: 390px;
+  margin-bottom: 16px;
+}
+
+.general-container {
+  padding: 0 15px;
+}
+
+img {
+  margin-bottom: 30px;
+}
+
+/* //section-1// */
+
+.img-1 {
+  position: relative;
+}
+
+.red-square-1 {
+  position: absolute;
+  left: 0px;
+  top: 140px;
+  background-color: #e00000;
+  width: 40px;
+  height: 80px;
+}
+
+.white-square-1 {
+  position: absolute;
+  right: 30px;
+  top: 75px;
+  background-color: #d8d8d8;
+  height: 44px;
+  width: 44px;
+}
+
+/* //section-2// */
+
+.section-2 {
+  position: relative;
+}
+
+.white-square-2 {
+  position: absolute;
+  bottom: 30px;
+  background-color: #d8d8d8;
+  opacity: 58%;
+  width: 360px;
+  height: 44px;
+}
+
+/* //section-3// */
+
+.section-3 {
+  position: relative;
+}
+
+.img-3 {
+  z-index: 0;
+}
+
+.white-square-3 {
+  position: absolute;
+  background-color: #d8d8d8;
+  opacity: 58%;
+  top: 20px;
+  left: 20px;
+  z-index: 1;
+  height: 165px;
+  width: 320px;
+}
+
+/* //section-4// */
+
+.section-4 {
+  position: relative;
+}
+
+.container-square-4 {
+  display: flex;
+  justify-content: space-between;
+  width: 80px;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+}
+
+.white-square-4 {
+  background-color: #d8d8d8;
+  width: 20px;
+  height: 20px;
+}
+
+.big-white-square-4 {
+  position: absolute;
+  background-color: #d8d8d8;
+  width: 71px;
+  height: 44px;
+  top: 80px;
+  left: 144px;
+}
+
+/* //section-5// */
+
+.section-5 {
+  display: flex;
+  justify-content: space-between;
+  width: 361px;
+}
+
+.img-5 {
+  width: 175px;
+  height: 103px;
+}
+
+.colomn-5 {
+  position: relative;
+}
+
+.white-square-5 {
+  position: absolute;
+  background-color: #d8d8d8;
+  opacity: 70%;
+  width: 175px;
+  height: 44px;
+  top: 59px;
+}
+
+.red-dot {
+  background-color: #e00000;
+  border-radius: 50%;
+  position: relative;
+  left: 316px;
+  bottom: 15px;
+  height: 44px;
+  width: 44px;
+}
